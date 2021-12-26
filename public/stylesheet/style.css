@@ -28,3 +28,13 @@ body{
     animation: moveBg 90s linear infinite;
     -webkit-animation: moveBg 90s linear infinite;
 }
+
+/* text background animation */
+@keyframes moveBg{
+    0%{
+        background-position: 0% 30% ;
+    }
+    100%{
+        background-position: 100% 50% ;
+    }
+}
